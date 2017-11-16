@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+#logo9{
+padding:10px 0px 0px 10px;
+}
+
+#logo9 h1{
+	color:#6e6e6e;
+	font:bold 25px verdana;	
+	margin-right:-300px;
+}
+
+#menuheader{
+	
+	width:100%;
+	height: 70px;
+	background:#fff;
+	box-shadow: 1px 1px 5px #000;
+	-webkit-box-shadow: 1px 1px 5px #000;
+	-moz-box-shadow:  1px 1px 5px #000;
+	-o-box-shadow: 1px 1px 5px #000;
+	z-index: 999;
+
+}
+
+#abrir_menu{
+	display: none;
+	float:right;
+	color:#6e6e6e;
+	font-size: 40px;
+	margin-top: -40px;
+	padding-right:20px; 
+	cursor: pointer;
+	
+
+
+}
+
+#menu9{
+	width:550px;
+	margin:-95px auto;
+	margin-top:-75px;
+	margin-right:-0px;
+
+}
+
+
+#menu9 ul a{
+	text-decoration:none;
+	color:#6e6e6e;
+	font:60px verdana;
+	padding:9px;
+	transition: background .6s, color .6s;
+	-webkit-transition: background .6s, color .6s;
+	-moz-transition: background .6s, color .6s;
+	-o-transition: background .6s, color .6s;
+
+
+}
+
+#menu9 ul a:hover{
+	background:#6e6e6e;
+	color:#f2f2f2;
+}
+
+#menu9 div{
+	display: none;
+	height: 50px;
+}
+
+#cerrar_menu {
+	float: right;
+	color: #6e6e6e;
+	font-size: 35px;
+	padding: 10px;
+	cursor: pointer;
+	opacity: .6;
+}
+
+#cerrar_menu:hover{
+	opacity:1;
+}
